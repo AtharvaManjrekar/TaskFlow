@@ -1,0 +1,25 @@
+/* src/index.css */
+@import "tailwindcss";
+
+@theme {
+    --bg-navbar: linear-gradient(135deg, #6EA8FE 0%, #C79BFC 100%);
+    --font-nunito: "Nunito", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-outfit: "Outfit", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bg-page: linear-gradient(135deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+@utility bg-navbar {
+    background-image: var(--bg-navbar);
+}
+
+@utility bg-page-gradient {
+    background-image: var(--bg-page);
+}
+
+@utility font-nunito {
+    font-family: var(--font-nunito);
+}
+
+@utility font-outfit {
+    font-family: var(--font-outfit);
+}
